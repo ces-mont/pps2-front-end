@@ -1,1 +1,1 @@
-export const SERVER_URL='http://labs-utn.herokuapp.com';
+export const SERVER_URL='https://labs-utn.herokuapp.com';

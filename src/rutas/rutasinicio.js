@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Home from '../componentes/home';
 import Salas from '../componentes/salas';
 import Accesorios from '../componentes/accesorios';
@@ -8,7 +8,7 @@ import Admin from '../componentes/admin';
 import ReservaAccesorios from '../componentes/reservaaccesorios';
 import Login from '../componentes/login';
 
-export default class RutasInicio extends React.Component{
+class RutasInicio extends React.Component{
     render(){
         return(
             <Router>
@@ -26,3 +26,4 @@ export default class RutasInicio extends React.Component{
         )
     }
 }
+export default RutasInicio;
